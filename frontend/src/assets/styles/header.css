@@ -1,0 +1,22 @@
+:root {
+    --font-primary:  'Kanit', sans-serif;
+    --font-secundary:  'Quicksand', sans-serif;
+    --color-main:  #f2ffe6;
+    --color-emphasys: #533f83;
+    --color-background: #1e006b;
+}
+
+.header {
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top, #f2ffe6 80%, #1e006b 20%);
+}
+
+.header > .tittle-header {
+    font-family: var(--font-primary);
+    color: var(--color-background);
+    font-weight: bold;
+    letter-spacing: 2px;
+}

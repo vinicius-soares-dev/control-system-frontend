@@ -1,0 +1,91 @@
+:root {
+    --font-primary:  'Kanit', sans-serif;
+    --font-secundary:  'Quicksand', sans-serif;
+    --color-main:  #f2ffe6;
+    --color-emphasys: #533f83;
+    --color-background: #1e006b;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3em;
+}
+
+.main-content > .intro-content {
+    padding: 2em;
+}
+
+.main-content > .login-content {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #533f83;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.main-content > .intro-content > .tittle-content {
+    font-family: var(--font-primary);
+    color: var(--color-main);
+    font-weight: bold;
+    font-size: 6em;
+    text-align: center;
+}
+
+.main-content > .intro-content > .description-content {
+    font-family: var(--font-secundary);
+    letter-spacing: 2px;
+    color: var(--color-main);
+}
+
+.main-content > .login-content > .username-label {
+    margin-bottom: 2em;
+    font-family: var(--font-secundary);
+    color: #000;
+    text-align: center;
+    font-weight: medium;
+}
+
+.main-content > .login-content > .password-label {
+    margin-bottom: 2em;
+    font-family: var(--font-secundary);
+    color: #000;
+    text-align: center;
+    font-weight: medium;
+}
+
+.main-content > .login-content > .username-input {
+    border: none;
+    border-radius: 6px;
+    padding: 0.5em 1em 0.5em 1em;
+    margin-bottom: 1em;
+}
+
+.main-content > .login-content > .password-input {
+    border: none;
+    border-radius: 6px;
+    padding: 0.5em 1em 0.5em 1em;
+    margin-bottom: 1em;
+}
+
+.main-content > .login-content > .button-login {
+    padding: 1em 2em 1em 2em;
+    font-family: var(--font-primary);
+    background: var(--color-main);
+    border: none;
+    border-top-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    cursor: pointer;
+}
+
+.main-content > .login-content > .button-login:hover {
+    opacity: 80%;
+    background: var(--color-background);
+    font-family: var(--font-primary);
+    color: var(--color-main);
+}
+

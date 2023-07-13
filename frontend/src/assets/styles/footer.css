@@ -1,0 +1,26 @@
+:root {
+    --font-primary:  'Kanit', sans-serif;
+    --font-secundary:  'Quicksand', sans-serif;
+    --color-main:  #f2ffe6;
+    --color-emphasys: #533f83;
+    --color-background: #1e006b;
+}
+
+.footer {
+    position: absolute;
+    padding: 2em;
+    background: var(--color-emphasys);
+    bottom: 0;
+    width: 100vw;
+}
+
+.footer > .link-footer {
+    text-decoration: none;
+}
+
+.footer > .link-footer > .description-footer {
+    font-family: var(--font-secundary);
+    color: var(--color-main);
+    text-align: center;
+    cursor: pointer;
+}
