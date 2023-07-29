@@ -209,13 +209,13 @@ function ClientsPage() {
 
                                             <div key={item._id} className="description-client">
                                                 <h5>{item.tittle} </h5>
-                                                <p>Descrição: {item.description} </p>
+                                                <p>Data: {item.description} </p>
                                                 <p>Nome: {item.username}</p>
                                                 <p>Telefone: {item.tel}</p>
                                                 <p>Endereço: {item.address}</p>
                                                 <p>Próxima manutenção: {item.nextVisit}</p>
 
-                                                <QRCode className="qrcodeView" value={"jiarcondicionadorp.com"}/>
+                                                <QRCode className="qrcodeView" value={`Serviço de ${item.tittle} realizado pela JI Ar condicionado, para o cliente ${item.username}, no dia ${item.description} com o combinado de retorno para a data ${item.nextVisit}. Para mais informações acesse nosso site: jiarcondicionadorp.com`}/>
                                                
 
                                                 <button className="delete-button" onClick={() => deletedUser(item._id, item.username)}>Deletar</button>
