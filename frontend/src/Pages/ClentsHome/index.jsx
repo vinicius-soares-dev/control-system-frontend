@@ -209,7 +209,7 @@ function ClientsPage() {
 
                                             <div key={item._id} className="description-client">
                                                 <h5>{item.tittle} </h5>
-                                                <p>Data: {item.description} </p>
+                                                <p>Data do serviço: {item.description} </p>
                                                 <p>Nome: {item.username}</p>
                                                 <p>Telefone: {item.tel}</p>
                                                 <p>Endereço: {item.address}</p>
