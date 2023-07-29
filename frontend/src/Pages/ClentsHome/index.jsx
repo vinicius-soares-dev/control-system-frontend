@@ -255,7 +255,7 @@ function ClientsPage() {
                                         required>    
                                     </input>
 
-                                    <label>Descrição do Serviço:</label>
+                                    <label>Data do Serviço:</label>
 
                                     <input 
                                         type="text" 
