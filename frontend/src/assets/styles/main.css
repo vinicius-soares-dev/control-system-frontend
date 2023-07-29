@@ -43,19 +43,21 @@
 }
 
 .main-content > .login-content > .username-label {
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
     font-family: var(--font-secundary);
-    color: #000;
+    color: var(--color-main);
     text-align: center;
     font-weight: medium;
+    text-shadow: -3px 1px 2px rgba(0,0,0,0.7);
 }
 
 .main-content > .login-content > .password-label {
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
     font-family: var(--font-secundary);
-    color: #000;
+    color: var(--color-main);
     text-align: center;
     font-weight: medium;
+    text-shadow: -3px 1px 2px rgba(0,0,0,0.7);
 }
 
 .main-content > .login-content > .username-input {

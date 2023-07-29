@@ -1,0 +1,257 @@
+:root {
+    --font-primary:  'Kanit', sans-serif;
+    --font-secundary:  'Quicksand', sans-serif;
+    --color-main:  #f2ffe6;
+    --color-emphasys: #533f83;
+    --color-background: #1e006b;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--color-background);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: white;
+}
+
+
+
+.main {
+    height: 100vh;
+    width: 100vw;
+}
+
+.main > .data-section{
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main > .data-section > .tittle-data {
+    font-family: var(--font-primary);
+    color: var(--color-main);
+    font-weight: bold;
+    text-align:center ;
+    font-size: 2em;
+    text-shadow: -3px 1px 2px rgba(0,0,0,0.7);
+}
+
+.main > .data-section > .section-clients {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.main > .data-section > .section-clients > .clients-data {
+    margin-top: 3em;
+    padding: 1.6em;
+    background-color: var(--color-emphasys);
+    border-top-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    overflow: auto;
+    width: 300px;
+    height: 300px;
+}
+
+
+.main > .data-section > .section-clients > .clients-form {
+    margin-top: 0em;
+    padding: 3em;
+    background-color: var(--color-emphasys);
+    border-top-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    text-align: center;
+    margin-left: 2em;
+    
+}
+
+.main > .data-section > .section-clients > .clients-descript {
+    display: none;
+}
+
+.main > .data-section > .section-clients > .new-client {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0em;
+    padding: 0.5em;
+    background-color: var(--color-emphasys);
+    border-top-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    margin-left: 2em;
+}
+
+.main > .data-section > .section-clients > .clients-form > .description-client {
+    font-family: var(--font-secundary);
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main > .data-section > .section-clients > .clients-form > .description-client > h5 {
+    letter-spacing:.1rem;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.main > .data-section > .section-clients > .clients-form > .description-client > p{
+    font-size: 0.8em;
+}
+
+/* .qrcode-container {
+    display: none;
+
+} */
+
+
+
+
+
+.main > .data-section > .section-clients > .clients-data > .list-clients {
+    list-style: none;
+    text-decoration: none;
+}
+
+.seeMoreButton {
+    padding: 0.4em;
+    font-weight: bold;
+    background-color: var(--color-background);
+    border: none;
+    color: var(--color-main);
+    margin-left: 3.5em;
+    cursor: pointer;
+}
+
+.seeMoreButton:hover {
+    opacity: 0.7;
+}
+
+.addMoreButton {
+    padding: 0.4em;
+    font-weight: bold;
+    background-color: var(--color-background);
+    border: none;
+    color: var(--color-main);
+    margin-left: 2em;
+    cursor: pointer;
+}
+
+.addMoreButton:hover {
+    opacity: 0.7;
+}
+
+
+
+.main > .data-section > .section-clients > .clients-data > .list-clients > .full-list {
+    list-style: none;
+    text-decoration: none;
+    font-size: 1em;
+    color: var(--color-main);
+    font-weight: normal;
+    font-variant: small-caps;
+    font-family: var(--font-secundary);
+    margin: 1em;
+    background-color: var(--color-background);
+    text-align: center;
+    cursor: pointer;
+}
+
+.tittle-form {
+    font-size: 1.3em;
+    font-family: var(--font-primary);
+    color: var(--color-main);
+}
+
+.new-client > label {
+    font-family: var(--font-secundary);
+    font-weight: 1.2em;
+    padding: 0.2em;
+}
+
+.new-client > input {
+    padding: 0.2em 0.1em 0.2em 0.1em;
+    border: none;
+}
+
+.create-button {
+    padding: 0.4em;
+    font-weight: bold;
+    background-color: var(--color-background);
+    border: none;
+    color: var(--color-main);
+    cursor: pointer;
+    margin-top: 0.6em;
+}
+
+.delete-button:hover {
+    opacity: 0.7;
+}
+.delete-button {
+    padding: 1em;
+    font-weight: bold;
+    background-color: var(--color-background);
+    border: none;
+    color: var(--color-main);
+    cursor: pointer;
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+.changeClass {
+    display: none;
+}
+
+.number-clients {
+    font-size: 1em;
+    font-family: var(--font-primary);
+    text-align: center;
+}
+
+.create-button:hover {
+    opacity: 0.7;
+}
+
+.qr-button {
+    padding: 0.4em;
+    font-weight: bold;
+    background-color: var(--color-background);
+    border: none;
+    color: var(--color-main);
+    cursor: pointer;
+    margin-top: 0.2em;
+    margin-left: 2em;
+}
+
+.qr-button:hover {
+    opacity: 0.7;
+}
+
+.qrcode-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main > .data-section > .section-clients > .all-dates {
+    padding: 0.6em;
+    color: var(--color-background);
+    opacity:.8;
+    cursor: pointer;
+    font-family: var(--font-primary);
+
+}

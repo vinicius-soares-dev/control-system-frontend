@@ -1,0 +1,18 @@
+:root {
+    --font-primary:  'Kanit', sans-serif;
+    --font-secundary:  'Quicksand', sans-serif;
+    --color-main:  #f2ffe6;
+    --color-emphasys: #533f83;
+    --color-background: #1e006b;
+}
+
+.section-countdown {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-countdown > .tittle-countdown {
+    font-family: var(--font-secundary);
+    color: #9c0202
+}
